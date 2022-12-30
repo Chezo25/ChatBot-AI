@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChatBot - Helper in Coding</title>
+    <title>ChatBot - AI Helper in Coding</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,9 +12,16 @@
       <div id="chat_container"></div>
 
       <form action="">
-        <textarea name="prompt" id="" cols="1" rows="1"></textarea>
+        <textarea
+          name="prompt"
+          id=""
+          cols="1"
+          rows="1"
+          placeholder="Ask Chat What you need."
+        ></textarea>
+        <button type="submit"><img src="/send.svg" alt="" /></button>
       </form>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="/script.js"></script>
   </body>
 </html>
