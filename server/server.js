@@ -38,5 +38,12 @@ app.post('/', async (req, res) => {
          res.status(200).send({
            bot: response.data.choices[0].text,
          });
-    } catch (error) {}
+    } catch (error) {
+        console.log(error);
+        res.status(500).send({
+                    message: error.message
+                });
+    }
 })
+
+app.listen(7000, () => console.log('CodeX is listening on port 7000!
