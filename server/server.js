@@ -46,4 +46,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen(7000, () => console.log('CodeX is listening on port http://localhost:7000!
+app.listen(7000, () => console.log('CodeX is listening on port http://localhost:7000!'));
